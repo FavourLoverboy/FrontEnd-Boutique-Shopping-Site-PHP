@@ -1,0 +1,329 @@
+body{
+    box-sizing: border-box;
+    /* background: peru; */
+    margin: 0;
+    padding: 0;
+}
+.middle{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+.no-space{
+    margin: 0;
+    padding: 0;
+}
+.height-1{
+    color:#fff;
+    height:35px;
+}
+.height-nav{
+    background: #fff;
+    height: 100px;
+}
+
+/* BACKGROUND COLORS */
+.black{
+    background: #000;
+    color:#fff;
+}
+
+/* MAIN LOGO */
+.main-logo{
+    background-image: url("../assets/lo.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #000;
+    font-size: 25px;
+}
+/* MAIN NAV */
+ul.main-menu{
+    /* background: brown; */
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+ul.main-menu a{
+    color: #3f3d3d;
+    font-family: Verdana, Tahoma, sans-serif;
+    font-weight: lighter;
+}
+ul.main-menu a li{
+    /* background: yellow; */
+    display: inline;
+    list-style-type: none;
+    margin:0 15px;
+}
+
+.icons ul{
+    margin: 0;
+    padding: 0;
+}
+.icons ul li{
+    display: inline;
+    list-style-type: none;
+    margin: auto 5px;
+}
+.icons ul li a{
+    color: #000;
+    text-decoration: none;
+}
+
+
+
+/* Hero 1 SECTION */
+.hero{
+    /* background: red; */
+    height: 700px;
+}
+.hero .both{
+    /* background: green; */
+    height: 100%;
+}
+.hero .both.both.left{
+    background:url("../assets/dance.webp");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+.hero .both.both.both.right{
+    align-items: center;
+    background: rgb(199, 213, 240);
+    display: flex;
+    font-size: 100px;
+    font-weight: bolder;
+    height: 100%;
+    justify-content: center;
+    text-align: center;
+}
+.hero .both.both.both.right h1{
+    font-size: 70px;
+    font-weight: bolder;
+}
+
+/* Hero 2 SECTION */
+.hero2{
+    /* background: red; */
+    height: 500px;
+}
+.hero2 .both{
+    /* background: green; */
+    height: 100%;
+    margin-bottom: 100px;
+    margin-top: 100px;
+}
+.hero2 .both.both.left{
+    align-items: center;
+    background: rgb(248, 196, 133);
+    display: flex;
+    font-size: 100px;
+    font-weight: bolder;
+    height: 100%;
+    justify-content: center;
+    text-align: center;
+}
+.hero2 .both.both.both.left h1{
+    font-size: 70px;
+    font-weight: bolder;
+}
+.hero2 .both.both.both.right{
+    background:url("../assets/party4.jpg");
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+
+
+
+/* FOOTER AREA */
+.footer-box-1{
+    /* background: #f0f; */
+    height:471px;
+    margin-bottom: 0px;
+}
+.footer-caption{
+    margin-bottom: 30px;
+    margin-top: 10px;
+    text-align: left;
+}
+ul.footer-menu{
+    margin: 0;
+    padding: 0;
+}
+ul.footer-menu li{
+    list-style-type: none;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+ul.footer-menu li a{
+    /* background: red; */
+    color: #000;
+    position: relative;
+    text-decoration: none;
+}
+ul.footer-menu li a:before{
+    content: '';
+    border-bottom: 1px solid #000;
+    height: 100%;
+    margin: 0;
+    position: absolute;
+    left: 0;
+    top: 0;
+    transition: .2s;
+    width: 0;
+}
+ul.footer-menu li a:hover::before{
+    content: '';
+    width: 100%;
+}
+.footer-contact{
+    /* background: red; */
+    height: 30px;
+}
+.footer-contact input{
+    background: transparent;
+    border:none;
+    border-bottom: 1px solid  #000;
+    height: 30px;
+    margin: 20px 0;
+    outline: none;
+    width: 100%;
+}
+.footer-contact .sub{
+    background: transparent;
+    border:none;
+    border-bottom: 1px solid  #000;
+    height: 30px;
+    margin: 20px 0;
+    outline: none;
+}
+.footer-2{
+    /* background: red; */
+    height: 100px;
+}
+.footer-2 ul{
+    margin: 0;
+    padding: 0;
+}
+.footer-2 ul li{
+    display: inline;
+    list-style-type: none;
+    margin: 0 10px;
+}
+.footer-3{
+    background: #fff;
+}
+
+/* HOME AREA */
+.tag{
+    /* background: red; */
+    margin: 5px  0;
+    padding: 50px 30px;
+}
+.tag .box{
+    cursor: pointer;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+
+.second-section{
+    /* background: red; */
+    margin: 5px  0;
+    padding: 50px 30px;
+}
+.second-section .box{
+    /* background: yellow; */
+    height:300px;
+    margin: 0px 10px;
+}
+.second-section .box .box-inner{
+    /* background: red; */
+    display:block;
+    height:200px;
+    margin: 50px 10px;
+}
+.second-section .box .box-inner .box-inner-text{
+    /* background: blue; */
+    font-family:monospace;
+    font-size:30px;
+    font-weight: bolder;
+    height:80px;
+    text-align: center;
+}
+.second-section .box .box-inner .box-inner-text-small{
+    font-weight: bolder;
+    height:40px;
+    padding: 0;
+    text-align: center;
+}
+
+.third-section{
+    /* background: red; */
+    padding: 0px 30px;
+}
+.third-section .box{
+    /* background: blue; */
+    height:480px;
+    margin: 5px  0;
+}
+.third-section .box .inner-one{
+    /* background: red; */
+    height:520px;
+    width:95%;
+}
+.third-section .box .inner-one.last{
+    /* background: red; */
+    float:right;
+    height:480px;
+    width:98%;
+}
+.third-section .box .inner-one .img{
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:400px;
+}
+.third-section .box .inner-one .text{
+    align-items: center;
+    display: flex;
+    margin-top: 20px;
+}
+
+
+
+.last-section{
+    padding: 34px;
+}
+.last-section-row{
+    background: cornflowerblue;
+    height: 300px;
+    width: 100%;
+}
+.last-section-row .both{
+    align-items: center;
+    color:#fff;
+    display: flex;
+    font-family: monospace;
+    font-size: 45px;
+    font-weight: bold;
+    height: 300px;
+    justify-content: center;
+}
+.last-section-row .both.left{
+    background-image: url('../assets/group.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.last-section-row .both.right{
+    background-image: url("../assets/right.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
